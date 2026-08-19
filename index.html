@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information and page configuration -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Website title shown in browser tab -->
     <title>Bharat Care - Your Health, Our Priority</title>
+    
+    <!-- External stylesheet link -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation Bar Section -->
     <nav class="navbar">
         <div class="container">
+            <!-- Website logo/name -->
             <div class="logo">Bharat Care</div>
+
+            <!-- Navigation menu links -->
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
@@ -20,62 +28,111 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section: Main landing section -->
     <section id="home" class="hero">
         <div class="container">
-            <h1>Welcome to Bharat Care</h1>
-            <p>Dedicated to providing the best healthcare services</p>
-            <button class="cta-button">Get Started</button>
-        </div>
-    </section>
+            <!-- Main heading and introduction -->
+            <h1>Your Trusted Healthcare Partner</h1>
+            <p>
+                Bharat Care provides affordable, reliable, and compassionate healthcare
+                services for families across India.
+            </p>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Medical Consultation</h3>
-                    <p>Expert medical advice from qualified professionals</p>
+            <!-- Call-to-action buttons -->
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
+                <button class="cta-button">Book Appointment</button>
+                <button class="cta-button" style="background: white; color: #667eea;">Explore Services</button>
+            </div>
+
+            <!-- Quick highlights section -->
+            <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 4rem;">
+                <div>
+                    <h2 style="font-size: 2rem;">10K+</h2>
+                    <p>Patients Served</p>
                 </div>
-                <div class="service-card">
-                    <h3>Emergency Care</h3>
-                    <p>24/7 emergency medical support available</p>
+                <div>
+                    <h2 style="font-size: 2rem;">24/7</h2>
+                    <p>Emergency Support</p>
                 </div>
-                <div class="service-card">
-                    <h3>Health Checkup</h3>
-                    <p>Comprehensive health screening packages</p>
-                </div>
-                <div class="service-card">
-                    <h3>Home Care</h3>
-                    <p>Professional care services at your doorstep</p>
+                <div>
+                    <h2 style="font-size: 2rem;">100+</h2>
+                    <p>Medical Experts</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Services Section: Displays healthcare services -->
+    <section id="services" class="services">
         <div class="container">
-            <h2>About Bharat Care</h2>
-            <p>We are committed to providing compassionate, affordable, and accessible healthcare to communities across India. With a team of experienced medical professionals, we ensure quality care for all.</p>
+            <h2>Our Services</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; color: #666;">
+                We offer modern healthcare solutions designed to ensure comfort, safety,
+                and quality treatment for every patient.
+            </p>
+
+            <!-- Grid layout for service cards -->
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <h3>Medical Consultation</h3>
+                    <p>Expert medical advice from qualified professionals.</p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency medical support with rapid response teams.</p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <h3>Health Checkup</h3>
+                    <p>Comprehensive health screening packages for all age groups.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <h3>Home Care</h3>
+                    <p>Professional healthcare services delivered at your doorstep.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- About Section: Information about the organization -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Bharat Care</h2>
+            <p>
+                Bharat Care is committed to improving lives through accessible and
+                patient-focused healthcare services. Our mission is to combine modern
+                medical expertise with compassionate care to create healthier communities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section: User contact form -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">
+                Have questions or need assistance? Reach out to our healthcare team.
+            </p>
+
+            <!-- Contact form for user inquiries -->
             <form class="contact-form">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <!-- Submit button -->
                 <button type="submit" class="cta-button">Send Message</button>
             </form>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Bharat Care. All rights reserved.</p>
